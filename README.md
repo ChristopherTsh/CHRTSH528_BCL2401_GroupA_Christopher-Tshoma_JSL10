@@ -1,45 +1,42 @@
-# [JSL10] Submission: Escaping Vanilla JS: Abstraction Challenge
+#  Escape Rooms 
 
-You will:
-1. Use the provided Starter Code Repository: https://github.com/CodeSpace-Academy/Module_10_StudentNo_Classcode_Group_Name-Surname_JSL10
-2. Code your solution.
-3. Commit changes to your GitHub repository.
-4. Submit the GitHub Repository Link to the LMS [JSL10] Submission Project Tab.
+Welcome to the thrilling world of JavaScript Escape Rooms! 🎉 This guide is your treasure map for cracking the puzzles using JavaScript magic. Let's get started!
 
-The Escape Vanilla JS Challenge is an interactive web-based project focusing on debugging skills, problem-solving, and the concept of abstraction. You will navigate through three themed "rooms," each presenting a unique challenge that requires them to debug and correct given JavaScript code to proceed. This adventure is themed around escaping the confines of Vanilla JavaScript to advance towards learning React.
+## Room 1: Finding the Key
+
+Imagine you're in a mysterious room. Your mission? Find the hidden key that unlocks the next adventure. Click the "Solve Room 1" button (it's like pushing a secret button on the wall). But wait! Be super careful—choose the right button! Once you click it, read the message that pops up. It's like deciphering ancient runes.
+
+
+
+## Room 2: Unlocking the Door
+
+Now you're in Room 2. The door is locked, and you need the magic code to open it. Click the "Solve Room 2" button (it's like turning a mysterious knob). Read the message carefully—it holds the secret code to unlock the door. 🗝️
+
+
+
+## Room 3: Navigating the Labyrinth
+
+Welcome to Room 3—a twisty-turny labyrinth awaits! Your quest: navigate through it successfully. Click the "Solve Room 3" button (it's like stepping on a hidden switch). Follow the directions carefully. If you conquer the maze, a magical message will appear. 🌟
+
+
+
+## Helpful Spells (Functions)
+
+Here are some spells—I mean, functions—used in the JavaScript code:
+
+- `findMostRecentBook(books)`: It's like a crystal ball that finds the latest book.
+- `findIntersection(setA, setB)`: Imagine it as a potion that reveals the common elements between two sets.
+- `navigateLabyrinth(directions)`: This one's tricky—it guides you through the labyrinth, but it's a bit slow (like a sleepy dragon).
+
+## Conclusion
+
+You've mastered the basics of Vanilla JavaScript! 🎓 Now, get ready to level up. Next stop: React! It's like learning a new spellbook to build magical web apps.
+
+Happy coding and may your escape be epic! 🚀✨
 
 ![alt text](<[JSL10 Solution].gif>)
 
-## What You Need to Do:
 
-1. Clone the provided Starter Code Repository to your local development environment (e.g., VSCode): https://github.com/CodeSpace-Academy/Module_10_StudentNo_Classcode_Group_Name-Surname_JSL10
-2. Open the cloned project in your code editor.
-3. Code your solution for each of the challenges as per the provided instructions.
-4. Commit your changes to your local Git repository with meaningful commit messages.
-5. Push your local Git repository to your GitHub account.
-6. Verify that the changes have been successfully pushed to your GitHub repository.
-
-#### Debugging Tasks
-
-1. **Correct the ID used in the event listener for Room 1.**
-2. **Use the correct element ID when displaying results for Room 1.**
-3. **Add the missing 'async' keyword to the JS concepts set.**
-4. **Correct the function call to find the intersection of `jsConcepts` and `reactConcepts` for Room 2.**
-5. **Ensure asynchronous operations are handled correctly in Room 3, particularly by adding `await` before the promise in `navigateLabyrinth`.**
-6. **Adjust the `findMostRecentBook` function to correctly compare dates and find the most recent book.**
-7. **Fix the `findIntersection` function to correctly determine the intersection of two sets.**
-8. **Add the `await` keyword before `new Promise` in `navigateLabyrinth` to ensure the simulation of asynchronous operations works as intended.**
-
-## What You Need to Include:
-
-1. Ensure that your code includes the necessary modifications to meet the challenge requirements.
-2. Your GitHub repository should contain the updated code files.
-
-## How We'll Assess Your Work:
-
-1. We will review your GitHub repository to ensure that it contains the updated code files.
-2. We will assess the modifications made to the code to verify that they effectively meet the challenge requirements.
-3. We will consider the commit history and meaningful commit messages to evaluate your coding process.
 
 
 
