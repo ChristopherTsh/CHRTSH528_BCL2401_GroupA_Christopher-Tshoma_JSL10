@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
         return navigateLabyrinth(directions);
       })
       .then((message) => {
-        // 🪲 Bug: Incorrect method
+        
         document.getElementById("room3Result").textContent = message;
       })
       .catch((error) => {
@@ -43,8 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 // Function to find the most recent book
 function findMostRecentBook(books) {
-  // 🪲 Bug: Logic error
-  return books.reduce((mostRecent, book) =>
+   return books.reduce((mostRecent, book) =>
     new Date(book.published) > new Date(mostRecent.published)
       ? book
       : mostRecent
