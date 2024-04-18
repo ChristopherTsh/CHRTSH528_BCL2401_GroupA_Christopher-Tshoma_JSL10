@@ -14,9 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Event listener for solving room 2
   document.getElementById("solveRoom2").addEventListener("click", () => {
     const jsConcepts = new Set(["closure", "scope", "hoisting", "async"]);
-
     const reactConcepts = new Set(["components", "jsx", "hooks", "async"]);
-
     const commonConcepts = findIntersection(jsConcepts, reactConcepts);
     document.getElementById(
       "room2Result"
@@ -33,7 +31,6 @@ document.addEventListener("DOMContentLoaded", () => {
         return navigateLabyrinth(directions);
       })
       .then((message) => {
-        
         document.getElementById("room3Result").textContent = message;
       })
       .catch((error) => {
@@ -43,7 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 // Function to find the most recent book
 function findMostRecentBook(books) {
-   return books.reduce((mostRecent, book) =>
+  return books.reduce((mostRecent, book) =>
     new Date(book.published) > new Date(mostRecent.published)
       ? book
       : mostRecent
