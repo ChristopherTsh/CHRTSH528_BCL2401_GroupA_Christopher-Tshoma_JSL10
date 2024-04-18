@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // Event listener for solving room 3
-  document.getElementById("solveRoom3").addEventListener("click", () => {
+  document.getElementById("solveRoom3").addEventListener("click", async () => {
     fetch("directions.json")
       .then((response) => response.json())
       .then((directions) => {
